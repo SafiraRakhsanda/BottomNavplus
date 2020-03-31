@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".dBerhajiDenganHartaYangHalal">
+
+    <TextView
+        android:id="@+id/bdhyh1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/berhaji_dengan_harta_yang_halal"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/ayat5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bdhyh1"
+        android:text="@string/ayat5"
+        android:textSize="13sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="2dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".dHindariMaksiat">
+
+    <TextView
+        android:id="@+id/hm1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hindari_maksiat"
+        android:textStyle="bold"
+        android:layout_marginTop="20sp"/>
+    <TextView
+        android:id="@+id/ayat4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hm1"
+        android:text="@string/ayat4"
+        android:layout_marginStart="20dp"
+        android:textSize="13sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/hadist21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ayat4"
+        android:text="@string/hadist21"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="13sp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/hadist22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ibnu_hazm_rahimahullah_al_muhalla_5_197"
+        android:layout_below="@id/hadist21"
+        android:layout_marginStart="20dp"
+        android:textSize="13sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/hadist23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hadist22"
+        android:text="@string/fatawaa_ibnu_baaz_5_139"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="13sp"
+        android:layout_marginTop="5dp"/>
+
+
+</RelativeLayout>

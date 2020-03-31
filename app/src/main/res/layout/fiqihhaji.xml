@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".FiqihHaji">
+
+    <Button
+        android:id="@+id/btnfq1"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="14dp"
+        android:background="@color/buttonDefault"
+        android:text="@string/ihram_di_miqot"
+        android:textSize="10sp"
+        android:drawableTop="@drawable/fq"/>
+
+</RelativeLayout>

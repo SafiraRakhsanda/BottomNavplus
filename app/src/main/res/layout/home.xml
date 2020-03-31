@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+ <androidx.cardview.widget.CardView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+  <RelativeLayout
+      android:id="@+id/frame_home"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+   <Button
+       android:id="@+id/btncity"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:layout_marginTop="7dp"
+       android:text="@string/search"
+       android:hint="@string/search" />
+
+
+   <ImageView
+       android:id="@+id/kakbah"
+       android:layout_width="match_parent"
+       android:layout_height="183dp"
+       android:background="@drawable/kakbah" />
+
+   <TextView
+       android:id="@+id/text_date"
+       android:layout_width="170dp"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="240dp"
+       android:layout_marginLeft="240dp"
+       android:layout_marginTop="135dp"
+       android:text="@string/date"
+       android:textColor="@color/date"
+       android:textSize="20sp"
+       android:textStyle="bold"/>
+
+   <Button
+       android:id="@+id/persiapanhaji"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_marginStart="25dp"
+       android:layout_marginLeft="20dp"
+       android:layout_marginTop="30dp"
+       android:layout_below="@+id/kakbah"
+       android:background="@color/apaaja"
+       android:drawableTop="@drawable/persiapanhaji"
+       android:text="@string/persiapan" />
+
+   <Button
+       android:id="@+id/fiqihumroh"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_marginStart="30dp"
+       android:layout_marginLeft="30dp"
+       android:layout_marginTop="30dp"
+       android:layout_below="@id/kakbah"
+       android:layout_toEndOf="@id/persiapanhaji"
+       android:layout_toRightOf="@id/persiapanhaji"
+       android:background="@color/apaaja"
+       android:drawableTop="@drawable/fiqihumrah"
+       android:text="@string/fiqihumroh"
+       android:gravity="center"/>
+
+   <Button
+       android:id="@+id/fiqihhaji"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_toRightOf="@id/fiqihumroh"
+       android:layout_toEndOf="@id/fiqihumroh"
+       android:layout_marginTop="30dp"
+       android:layout_marginLeft="30dp"
+       android:layout_marginRight="25dp"
+       android:layout_marginStart="30dp"
+       android:layout_below="@+id/kakbah"
+       android:layout_marginEnd="25dp"
+       android:background="@color/apaaja"
+       android:drawableTop="@drawable/fiqihaji"
+       android:text="@string/fiqihhaji"/>
+
+   <Button
+       android:id="@+id/dzikir"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_below="@id/persiapanhaji"
+       android:layout_marginTop="15dp"
+       android:layout_marginLeft="25dp"
+       android:layout_marginStart="25dp"
+       android:background="@color/apaaja"
+       android:drawableTop="@drawable/islam"
+       android:text="@string/dzikir"/>
+
+   <Button
+       android:id="@+id/tatacara"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_marginStart="30dp"
+       android:layout_marginLeft="30dp"
+       android:layout_marginTop="15dp"
+       android:layout_below="@id/fiqihumroh"
+       android:layout_toEndOf="@id/dzikir"
+       android:layout_toRightOf="@id/dzikir"
+       android:background="@color/apaaja"
+       android:drawableTop="@drawable/islam"
+       android:text="@string/tatacara"/>
+
+   <Button
+       android:id="@+id/tatacarhaji"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_marginStart="30dp"
+       android:layout_marginLeft="30dp"
+       android:layout_marginTop="15dp"
+       android:layout_below="@id/fiqihhaji"
+       android:layout_toEndOf="@id/tatacara"
+       android:layout_toRightOf="@id/tatacara"
+       android:background="@color/apaaja"
+       android:drawableTop="@drawable/islam"
+       android:text="@string/tatahaji"/>
+
+   <Button
+       android:id="@+id/petajarak"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_below="@id/dzikir"
+       android:layout_marginTop="15dp"
+       android:layout_marginLeft="25dp"
+       android:layout_marginStart="25dp"
+       android:background="@color/apaaja"
+       android:drawableTop="@drawable/islam"
+       android:text="@string/Petajarak"/>
+
+   <Button
+       android:id="@+id/lokasi"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_below="@id/tatacara"
+       android:layout_marginTop="15dp"
+       android:layout_marginLeft="30dp"
+       android:layout_marginStart="30dp"
+       android:layout_toRightOf="@id/petajarak"
+       android:layout_toEndOf="@id/petajarak"
+       android:background="@color/apaaja"
+       android:drawableTop="@drawable/islam"
+       android:text="@string/lokasi"/>
+
+   <Button
+       android:id="@+id/tanyajawab"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_below="@id/tatacara"
+       android:layout_marginTop="15dp"
+       android:layout_marginLeft="30dp"
+       android:layout_marginStart="30dp"
+       android:layout_toRightOf="@id/lokasi"
+       android:layout_toEndOf="@id/lokasi"
+       android:background="@color/apaaja"
+       android:drawableTop="@drawable/islam"
+       android:text="@string/tanyajawab"/>
+
+  </RelativeLayout>
+
+ </androidx.cardview.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

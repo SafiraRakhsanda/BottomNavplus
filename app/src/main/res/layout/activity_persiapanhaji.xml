@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".persiapanhaji">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnph1"
+                android:layout_width="107dp"
+                android:layout_height="87dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="19dp"
+                android:background="@color/buttonDefault"
+                android:drawableTop="@drawable/kaaba" />
+
+            <TextView
+                android:id="@+id/txtph1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnph1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="9dp"
+                android:text="@string/keutamaan_haji"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btnph2"
+                android:layout_width="107dp"
+                android:layout_height="87dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="127dp"
+                android:layout_marginLeft="127dp"
+                android:layout_marginTop="19dp"
+                android:background="@color/buttonDefault"
+                android:drawableTop="@drawable/kaaba" />
+
+
+            <TextView
+                android:id="@+id/txtph2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnph2"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="130dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="9dp"
+                android:text="@string/jama_ah_haji_tamu_allah"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btnph3"
+                android:layout_width="107dp"
+                android:layout_height="87dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="19dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="56dp"
+                android:background="@color/buttonDefault"
+                android:drawableTop="@drawable/kaaba" />
+
+            <TextView
+                android:id="@+id/txtph3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnph3"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="162dp"
+                android:layout_marginLeft="162dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:text="@string/segeralah_jadi_tamu_allah"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btnph4"
+                android:layout_width="107dp"
+                android:layout_height="87dp"
+                android:layout_below="@id/btnph1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="47dp"
+                android:background="@color/buttonDefault"
+                android:drawableTop="@drawable/kaaba" />
+
+            <TextView
+                android:id="@+id/txtph4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnph4"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="9dp"
+                android:text="@string/bersabarlah"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btnph5"
+                android:layout_width="107dp"
+                android:layout_height="87dp"
+                android:layout_below="@id/btnph2"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="127dp"
+                android:layout_marginLeft="127dp"
+                android:layout_marginTop="47dp"
+                android:background="@color/buttonDefault"
+                android:drawableTop="@drawable/kaaba" />
+
+            <TextView
+                android:id="@id/txtph3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnph5"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="167dp"
+                android:layout_marginLeft="167dp"
+                android:layout_marginTop="9dp"
+                android:text="@string/ikhlas"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btnph6"
+                android:layout_width="107dp"
+                android:layout_height="87dp"
+                android:layout_below="@id/btnph3"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="47dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="56dp"
+                android:background="@color/buttonDefault"
+                android:drawableTop="@drawable/kaaba" />
+
+            <TextView
+                android:id="@+id/txtph6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnph6"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:text="@string/meneladani_nabi"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btnph7"
+                android:layout_width="107dp"
+                android:layout_height="87dp"
+                android:layout_below="@id/btnph5"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="45dp"
+                android:background="@color/buttonDefault"
+                android:drawableTop="@drawable/kaaba" />
+
+            <TextView
+                android:id="@+id/txtph7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnph7"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="9dp"
+                android:text="@string/jangan_berdebat"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btnph8"
+                android:layout_width="107dp"
+                android:layout_height="87dp"
+                android:layout_below="@id/btnph5"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="127dp"
+                android:layout_marginLeft="127dp"
+                android:layout_marginTop="45dp"
+                android:background="@color/buttonDefault"
+                android:drawableTop="@drawable/kaaba" />
+
+            <TextView
+                android:id="@+id/txtph8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnph8"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="128dp"
+                android:layout_marginLeft="128dp"
+                android:layout_marginTop="9dp"
+                android:text="@string/jangan_maksiat_agar_mabrur"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btnph9"
+                android:layout_width="107dp"
+                android:layout_height="87dp"
+                android:layout_below="@id/btnph6"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="45dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="56dp"
+                android:background="@color/buttonDefault"
+                android:drawableTop="@drawable/kaaba" />
+
+            <TextView
+                android:id="@+id/txtph9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnph9"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:text="@string/bertaubat_sebelum_berhaji"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btnph10"
+                android:layout_width="107dp"
+                android:layout_height="87dp"
+                android:layout_below="@id/btnph7"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="47dp"
+                android:background="@color/buttonDefault"
+                android:drawableTop="@drawable/kaaba" />
+
+            <TextView
+                android:id="@+id/txtph10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnph10"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="9dp"
+                android:text="@string/berhaji_dengan_harta_yg_halal"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btnph11"
+                android:layout_width="107dp"
+                android:layout_height="87dp"
+                android:layout_below="@id/btnph8"
+                android:layout_marginStart="127dp"
+                android:layout_marginLeft="127dp"
+                android:layout_marginTop="47dp"
+                android:background="@color/buttonDefault"
+                android:drawableTop="@drawable/kaaba" />
+
+            <TextView
+                android:id="@+id/txtph11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnph11"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="130dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="9dp"
+                android:text="@string/mencari_teman_perjalanan_yang_baik"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btnph12"
+                android:layout_width="107dp"
+                android:layout_height="87dp"
+                android:layout_below="@id/btnph9"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="47dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="56dp"
+                android:background="@color/buttonDefault"
+                android:drawableTop="@drawable/kaaba" />
+
+            <TextView
+                android:id="@+id/txtph12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnph12"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:text="@string/hakikat_talbiyah"
+                android:textSize="10sp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

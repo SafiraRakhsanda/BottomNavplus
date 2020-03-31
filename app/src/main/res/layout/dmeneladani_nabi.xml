@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".dMeneladaniNabi">
+
+    <TextView
+        android:id="@+id/mn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/meneladani_nabi"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/hadist16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mn1"
+        android:text="@string/hadist16"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="13sp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/hadist17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hadist16"
+        android:text="@string/hadist17"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="13sp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/hadist18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hadist17"
+        android:text="@string/hadist18"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="13sp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/hadist19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hadist18"
+        android:text="@string/hadist19"
+        android:layout_marginStart="20dp"
+        android:textSize="13sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"/>
+
+
+</RelativeLayout>

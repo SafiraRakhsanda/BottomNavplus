@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">BottomNavigation</string>
+    <string name="beranda">Beranda</string>
+    <string name="sholat">Sholat</string>
+    <string name="kiblat">Kiblat</string>
+    <string name="kesehatan">Kesehatan</string>
+    <string name="author">Author</string>
+
+    <string name="subuh">Subuh</string>
+    <string name="dzuhur">Dzuhur</string>
+    <string name="ashar">Ashar</string>
+    <string name="maghrib">Maghrib</string>
+    <string name="isya">Isya</string>
+    <string name="prayer_time">Prayer Time</string>
+    <string name="location">Location : </string>
+    <string name="myloc">myLoc</string>
+    <string name="date">Date : </string>
+    <string name="search">Search</string>
+
+    <string name="kirim_lokasi">Kirim Lokasi</string>
+    <string name="lokasi_anda">Lokasi Anda:</string>
+
+    <string name="date1">date</string>
+    <string name="fiqihumroh">fiqih umroh</string>
+    <string name="persiapan">Persiapan Haji</string>
+    <string name="fiqihhaji">Fiqih Haji</string>
+    <string name="dzikir">Dzikir &amp; Doa</string>
+    <string name="tatacara">Tata Cara Umrah</string>
+    <string name="tatahaji">Tata Cara Haji</string>
+    <string name="Petajarak">Peta Jarak</string>
+    <string name="lokasi">Lokasi Ziarah</string>
+    <string name="tanyajawab">Tanya Jawab</string>
+
+    <string name="search1">search</string>
+    <string name="tentang">Tentang</string>
+    <string name="gaada">No Result</string>
+    <string name="rate">Rate this app</string>
+    <string name="daftarisi">Daftar Isi</string>
+
+    <string-array name="mencari">
+        <item> Anggia </item>
+        <item> Fadiya </item>
+        <item> Khalifa </item>
+        <item> Nayla </item>
+        <item> Safira </item>
+        <item> Inas </item>
+        <item> Maurisa </item>
+        <item> Meyling </item>
+        <item> Dida </item>
+    </string-array>
+
+    <string name="keutamaan_haji">Keutamaan haji</string>
+    <string name="jama_ah_haji_tamu_allah">Jama\'ah haji tamu\n Allah</string>
+    <string name="segeralah_jadi_tamu_allah">Segeralah jadi tamu\n Allah</string>
+    <string name="bersabarlah">Bersabarlah</string>
+    <string name="ikhlas">Ikhlas</string>
+    <string name="meneladani_nabi">Meneladani Nabi</string>
+    <string name="jangan_berdebat">Jangan Berdebat</string>
+    <string name="jangan_maksiat_agar_mabrur">Jangan maksiat agar\n mabrur</string>
+    <string name="bertaubat_sebelum_berhaji">Bertaubat sebelum\n berhaji</string>
+    <string name="berhaji_dengan_harta_yg_halal">Berhaji dengan harta\n yg halal</string>
+    <string name="mencari_teman_perjalanan_yang_baik">Mencari teman\n perjalanan yang baik</string>
+    <string name="ihram_di_miqot">Ihram di Miqot</string>
+    <string name="thowaf">Thowaf</string>
+    <string name="maqom_ibrahim">Maqom Ibrahim</string>
+    <string name="minum_zamzam">Minum Zamzam</string>
+    <string name="sa_i">Sa\'i</string>
+    <string name="gundul_cukur_pendek">Gundul/Cukur Pendek</string>
+    <string name="dzikir_haji_dan_umroh">Dzikir haji dan umroh</string>
+    <string name="dzikir_pagi_dan_petang">Dzikir pagi dan petang</string>
+    <string name="dzikir_dan_doa_keseharian">Dzikir dan Doa Keseharian</string>
+    <string name="doa_umum_arofal_dll">Doa Umum(Arofal,dll)</string>
+    <string name="rukun_islam_yang_kelima">1.Rukun Islam yang Kelima</string>
+    <string name="_2_mendapatkan_surga">2.Mendapatkan surga</string>
+    <string name="menghilangkan_dosa_dan_kemiskinan">3.Menghilangkan dosa dan kemiskinan</string>
+    <string name="haji_merupakan_jihad_bagi_wanita">4.Haji merupakan jihad bagi wanita</string>
+    <string name="bagi_laki_laki_haji_mabrur_merupakan_amalan_terbaik_setelah_jihad">5.Bagi laki-laki haji mabrur merupakan amalan terbaik setelah jihad</string>
+    <string name="_6_menghapus_seluruh_dosa">6.Menghapus seluruh dosa</string>
+    <string name="pahala_berlimpah_ruah">7.Pahala berlimpah ruah</string>
+    <string name="jmha">Jama\'ah haji tamu Allah</string>
+    <string name="hr_bukhari_no_1593">HR.Bukhari no 1593</string>
+    <string name="segera_mendapat_predikat_tamu_allah">Segera mendapat Predikat \'Tamu Allah</string>
+    <string name="bersabar">Bersabar</string>
+    <string name="ikhlas_dalam_haji">Ikhlas dalam Haji</string>
+    <string name="as_sa_di_tafsir_al_kariim_ar_rahmaan_hal_92">As-Sa\'di;Tafsir Al-Kariim ar-Rahmaan hal 92</string>
+    <string name="hindari_maksiat">Hindari Maksiat</string>
+    <string name="ibnu_hazm_rahimahullah_al_muhalla_5_197">Ibnu Hazm rahimahullah; Al-Muhalla 5/197</string>
+    <string name="fatawaa_ibnu_baaz_5_139">Fatawaa Ibnu Baaz 5/139</string>
+    <string name="berhaji_dengan_harta_yang_halal">Berhaji dengan Harta yang Halal</string>
+    <string name="mencari_pertemanan_yang_baik_dalam_perjalanan">Mencari Pertemanan yang Baik dalam Perjalanan</string>
+    <string name="penjelasan5">Ibnu Umar diriwayatkan oleh Al – Bazzaar dalam musnadnya no 6158</string>
+    <string name="_2_memakai_minyak_wangi_sebelum_ihram">2. Memakai minyak wangi sebelum ihram</string>
+    <string name="hadist45">HR. Bukhari no 1539 dan Muslim no 2040 HR. Abu Dawud no 1606, Ahmad no 24502,</string>
+    <string name="hadist46">HR. Abu Dawud no 1606, Ahmad no 24502, disahihkan Al – Albani</string>
+    <string name="_3_berihram_setelah_shalat">3. Berihram setelah shalat</string>
+    <string name="hadist47">Imam Nawawi; Al – Majmuu’ 7/221, HR Muslim no 1184</string>
+    <string name="_4_ber_ihlal_bertalbiyah">4. Ber-ihlal (Bertalbiyah)</string>
+    <string name="ayat1">QS. Ali Imran : 97</string>
+    <string name="hadist1">HR. bukhari no 8 dan Muslim no 16</string>
+    <string name="hadsit2">HR. Bukhari 1773 dan Muslim no 1349 dan Abu Hurairah r.a</string>
+    <string name="hadist3">HR. Tirmidzi dan An – Nasa’i, disahihkan oleh Al – Albani dalam As – Sahihah no 1200</string>
+    <string name="hadist4">HR. Bukhari no 1520</string>
+    <string name="hadist5">HR. Ibnu Majah no 2901 dishahihkan Al – Albani dalam Al – Irwaa no 981</string>
+    <string name="hadist6">HR. Bukhari no 26 dan Muslim no 135</string>
+    <string name="hadist7">HR. Bukhari no 1521 dan Muslim no 1350</string>
+    <string name="hadist8">Shahh Ibnu Khuzaimah no 1984, dinyatakan oleh syaikh Al – Albani; Hasan lighairihi</string>
+    <string name="ayat2">QS. Al – Hajj : 27</string>
+    <string name="hadist9">HR. Ibnu Majah no 2884, dihasankan oleh Al – Albani dalam As – Shahihah no 1820</string>
+    <string name="hadist34">HR. Bukhari no 1593</string>
+    <string name="hadist11">HR. Ibnu MAjah no 2874 dishahihkan Al – Albani tetapi dilemahkan beberapa ulama</string>
+    <string name="hadsit12">HR. Bukhari no 1787 dan 1211</string>
+    <string name="hadist13">HR. Baihaqi dalam As – Sunah al – Kubro no 8634</string>
+    <string name="hadist15">HR. Bukhari no 1521 dan Muslim no 1350</string>
+    <string name="hadist14">Dishahihkan oleh Al – Albani dalam As – Shahihah no 2617</string>
+    <string name="hadist16">HR. Bukhari no 1605 dan Muslim no 1270</string>
+    <string name="hadist19">An – Nawawi; Al – Minhaaj Syarh Shahih Muslim 9/45</string>
+    <string name="hadist18">HR. Muslim no 1297</string>
+    <string name="hadist17">HR. Bukhari no 1579</string>
+    <string name="ayat3">QS. Al – Baqarah : 197</string>
+    <string name="ayat4">QS. Al – Baqarah : 197</string>
+    <string name="hadist21">HR. Bukhari no 1521 dan Muslim 1350</string>
+    <string name="ayat5">QS. Al – Baqarah : 197</string>
+    <string name="hadist24">HR. Tirmidzi no 2738</string>
+    <string name="hakikat_talbiyah">Hakikat Talbiyah</string>
+    <string name="hadist29">HR. Bukhari no 1549 dan Muslim no 1184</string>
+    <string name="hadist26">HR. Thabrani dan dishahihkan oleh Al – Albani dalam As – Shahihah no 1621</string>
+    <string name="hadist25">HR. Muslim no 1247</string>
+    <string name="hadist31">HR. Ahmad no 16567, Ibnu Majah no 2922, Abu Dawud no 1814, At – Tirmidzi no 829, An – Nasaai no 2753</string>
+    <string name="hadist30">HR. Muslim no 1218</string>
+    <string name="ayat6">QS. Al – Baqarah : 196</string>
+    <string name="ayat7">QS. Al – Hajj : 29</string>
+    <string name="selanjut">SELANJUTNYA</string>
+    <string name="waktu">APA KEK ASHAR</string>
+    <string name="jam">00 : 00</string>
+    <string name="kota">___
+        \n
+        Nama Kotanya bangg:v</string>
+    <string name="tanggal">Senin, 30 Maret 2020, 14:00</string>
+
+</resources>

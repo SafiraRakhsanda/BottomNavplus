@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DzikirDoa">
+
+    <Button
+        android:id="@+id/btndd1"
+        android:layout_width="170dp"
+        android:layout_height="160dp"
+        android:drawableTop="@drawable/dd"
+        android:background="@color/buttonDefault"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/dzikir_haji_dan_umroh"
+        android:textSize="8sp"/>
+
+    <Button
+        android:id="@+id/btndd2"
+        android:layout_width="170dp"
+        android:layout_height="160dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="22dp"
+        android:background="@color/buttonDefault"
+        android:drawableTop="@drawable/dd"
+        android:text="@string/dzikir_pagi_dan_petang"
+        android:textSize="8sp" />
+
+
+    <Button
+        android:id="@+id/btndd3"
+        android:layout_width="170dp"
+        android:layout_height="160dp"
+        android:layout_below="@id/btndd1"
+        android:drawableTop="@drawable/dd"
+        android:background="@color/buttonDefault"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/dzikir_dan_doa_keseharian"
+        android:textSize="8sp"/>
+
+    <Button
+        android:id="@+id/btndd4"
+        android:layout_width="170dp"
+        android:layout_height="160dp"
+        android:layout_below="@id/btndd2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="22dp"
+        android:background="@color/buttonDefault"
+        android:drawableTop="@drawable/dd"
+        android:text="@string/doa_umum_arofal_dll"
+        android:textSize="8sp" />
+
+</RelativeLayout>

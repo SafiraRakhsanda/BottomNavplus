@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FiqihUmrah">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnfq1"
+            android:layout_width="165dp"
+            android:layout_height="165dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="14dp"
+            android:background="@color/buttonDefault"
+            android:text="@string/ihram_di_miqot"
+            android:textSize="10sp"
+            android:drawableTop="@drawable/fq"/>
+
+        <Button
+            android:id="@+id/btnfq2"
+            android:layout_width="165dp"
+            android:layout_height="165dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/buttonDefault"
+            android:drawableTop="@drawable/fq"
+            android:text="@string/thowaf"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btnfq3"
+            android:layout_width="165dp"
+            android:layout_height="165dp"
+            android:layout_below="@id/btnfq1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="14dp"
+            android:background="@color/buttonDefault"
+            android:drawableTop="@drawable/fq"
+            android:text="@string/maqom_ibrahim"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btnfq4"
+            android:layout_width="165dp"
+            android:layout_height="165dp"
+            android:layout_below="@id/btnfq2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginRight="13dp"
+            android:background="@color/buttonDefault"
+            android:drawableTop="@drawable/fq"
+            android:text="@string/minum_zamzam"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btnfq5"
+            android:layout_width="165dp"
+            android:layout_height="165dp"
+            android:layout_below="@id/btnfq3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="14dp"
+            android:background="@color/buttonDefault"
+            android:drawableTop="@drawable/fq"
+            android:text="@string/sa_i"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btnfq6"
+            android:layout_width="165dp"
+            android:layout_height="165dp"
+            android:layout_below="@id/btnfq4"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginRight="13dp"
+            android:background="@color/buttonDefault"
+            android:drawableTop="@drawable/fq"
+            android:text="@string/gundul_cukur_pendek"
+            android:textSize="10sp" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
